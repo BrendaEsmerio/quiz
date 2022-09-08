@@ -1,10 +1,12 @@
 package esmerio.brenda.quiz
 
 import android.util.Log
+import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 
 private const val TAG = "QuizViewModel"
-class QuizViewModel : ViewModel() {
+const val CURRENT_INDEX_KEY = "CURRENT_INDEX_KEY"
+class QuizViewModel (private val savedStateHandle: SavedStateHandle): ViewModel() {
    /* init {
         Log.d(TAG, "Se creo el ViewModel")
     }
@@ -22,7 +24,9 @@ class QuizViewModel : ViewModel() {
 
 
     )
-    private var Indice=0
+    private var Indice
+        get() = savedStateHandle.get(CURRENT_INDEX_KEY) ?: 0
+        set(value) = savedStateHandle.set(CURRENT_INDEX_KEY, value)
 
     val currentQuestionAnswer: Boolean
         get() = bancoPreguntas[Indice].respuesta
