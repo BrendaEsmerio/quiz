@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Quiz</string>
-    <string name="pregunta_lapuertanegra">¿La puerta estaba cerrada con 3 candados?</string>
-    <string name="pregunta_chuy_mau">¿Carlos y José iban en el carro de la Crysler?</string>
-    <string name="pregunta_el24">¿Me dicen el 24, pero mis amigos y parientes me llaman tecate?</string>
-    <string name="pregunta_jgl">¿Las siglas JGL signfican Juegos Ganados Locales?</string>
+    <string name="pregunta_lapuertanegra">¿Moscu es la capital de Rusia?</string>
+    <string name="pregunta_chuy_mau">India esta en Europa</string>
+    <string name="pregunta_el24">Panama no tiene mares</string>
+    <string name="pregunta_jgl">El pais de portugal habla Español</string>
     <string name="pregunta_elnumero1">¿Rafael Caro Quintero mató a camarena?</string>
     <string name="los_sanguinarios">¿Con cuerno de chivo y bazooca en el pecho?</string>
     <string name="true_buttom">TRUE</string>
