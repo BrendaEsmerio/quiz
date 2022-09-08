@@ -73,7 +73,7 @@ class MainActivity : AppCompatActivity() {
     override fun onDestroy() {
         super.onDestroy()
         Log.d(TAG, "onDestroy() called")
-    }
+    }//holi
     private fun updateQuestion() {
         //val preguntaTextResId=bancoPreguntas[Indice].TextoPregunta
         val preguntaTextResId = quizViewModel.currentQuestionText
