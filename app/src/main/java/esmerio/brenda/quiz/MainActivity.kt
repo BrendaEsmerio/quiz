@@ -18,11 +18,13 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding : ActivityMainBinding
     private val bancoPreguntas=listOf(
-        preguntas(R.string.pregunta_lapuertanegra,true),
-        preguntas(R.string.pregunta_chuy_mau,false),
-        preguntas(R.string.pregunta_jgl,false),
-        preguntas(R.string.pregunta_elnumero1,false),
-        preguntas(R.string.los_sanguinarios,false)
+        preguntas(R.string.pregunta_Moscu,true),
+        preguntas(R.string.pregunta_America,false),
+        preguntas(R.string.pregunta_Brasil,false),
+        preguntas(R.string.pregunta_India,false),
+        preguntas(R.string.pregunta_Panama,false),
+        preguntas(R.string.pregunta_Portugal,false)
+
 
     )
     private var Indice=0
