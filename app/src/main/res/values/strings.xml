@@ -11,4 +11,9 @@
     <string name="correct_toast">Correct!</string>
     <string name="incorrect_toast">Incorrect!</string>
     <string name="next_button">Next Question</string>
+
+    <string name="texto_advertencia">Seguro que quiere hacer eso?</string>
+    <string name="mostrar_botton_respuesta">Show Answer</string>
+    <string name="boton_trampa">Tramposo!</string>
+    <string name="judgment_toast">Eso es malo!</string>
 </resources>
